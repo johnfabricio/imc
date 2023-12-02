@@ -34,4 +34,5 @@ function calcular(){
 
 
     res.innerHTML = `Seu IMC é ${imc} sendo considerado <strong>${condicao}</strong>`
+    
 }
