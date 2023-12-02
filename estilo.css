@@ -11,10 +11,15 @@ section{
     width: 300px;
     padding: 5px;
     margin: auto;
+    border-radius: 10px;
 
 }
 input{
     width: 80px;
+}
+
+div#res{
+    padding: 5px;
 }
 
 footer{
