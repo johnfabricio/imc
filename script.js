@@ -33,5 +33,5 @@ function calcular(){
 
 
 
-    res.innerHTML = `Seu IMC é ${imc} e é considerado <strong>${condicao}</strong>`
+    res.innerHTML = `Seu IMC é ${imc} sendo considerado <strong>${condicao}</strong>`
 }
