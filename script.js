@@ -8,8 +8,8 @@ function calcular(){
     var imc = fimc.toFixed(2)
     var condicao = ''
 
-    if(kg.value.length == 0){
-        window.alert('ERRO')
+    if(fpeso.value.length == 0 || faltura.value.length == 0){
+        window.alert('ERRO! Prencha todos os campos.')
     }
 
     if (imc < 18.5){
