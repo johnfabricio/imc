@@ -8,6 +8,10 @@ function calcular(){
     var imc = fimc.toFixed(2)
     var condicao = ''
 
+    if(kg.value.length == 0){
+        window.alert('ERRO')
+    }
+
     if (imc < 18.5){
         //abaixo do peso
         condicao = 'abaixo do peso'

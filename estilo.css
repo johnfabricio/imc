@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background: rgb(229, 226, 226);
+    background-image: linear-gradient(to top,#44f189,#3a0962);
     min-height: 100vh;
     
 }
@@ -9,12 +9,12 @@ header{
     color: rgb(223, 111, 111);
 }
 section{
-    background: white;
+    background: rgb(245, 245, 240);
     width: 300px;
     padding: 5px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 1px 2px 3px black;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.415);
 
 }
 input{
