@@ -6,19 +6,22 @@ body{
 }
 header{
     text-align: center;
-    color: rgb(132, 62, 102);
+    color: rgb(19, 60, 101);
 }
 section{
-    background: rgb(238, 238, 225);
+    background: rgba(213, 205, 217, 0.56);
     width: 300px;
     padding: 5px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.415);
+    border: 2px solid rgba(0, 0, 255, 0.133);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.308);
 
 }
 input{
     width: 80px;
+    border-radius: 8px;
+    border: 1px solid #23659f;
 
     
 }
